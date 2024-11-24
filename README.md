@@ -84,7 +84,33 @@ docker compose up -d
 * http://Server_IP:3010/
 * https://Server_IP:3011/
 
-## Optional: Stop and Delete Chromium
+## Optional: Edit VPS RAM for Chromium
+اگه کرومیوم رو برای نودهای اکستنشن ( grass, nodepay,... ) نصب کردید و کنده و براتون لود نمیشه تغییرات زیر رو انجام بدید تا کرومیوم بتونه از رم بیشتری استفاده کنه و سرعتش بیشتر شه.
+```
+docker stop chromium
+```
+```
+docker rm chromium
+```
+```
+
+cd chromium
+```
+```
+
+nano docker-compose.yaml
+```
+حالا قسمت زیر رو باید تغییر بدید.
+بستگی به رم سرورتون داره این عدد
+اگه رم سرور مثلا 16 گیگه می تونید تا 10 گیگ رو اجازه بدید که کرومیوم ازش استفاده کنه.
+
+و بعد با دستور زیر دوباره کرومیوم رو ران کنید.
+```
+
+docker compose up -d
+
+```
+## Optiona2: Stop and Delete Chromium
 ```
 docker stop chromium
 docker rm chromium
