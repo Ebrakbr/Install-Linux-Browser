@@ -120,7 +120,7 @@ docker rm chromium
 docker system prune
 ```
 
-## 2nd Method: Install Windows on VPS
+## 2nd Method: Install Ubuntu Desktop ( Similar to Windows on VPS)
 **** حتما اوبونتو 22 نیازه **** بعد نصب اوبونتو
 
 روی سرور linux مجازی نصب کردم با کامند طبق ویدیو:
