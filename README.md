@@ -120,12 +120,15 @@ docker rm chromium
 docker system prune
 ```
 
-## 2nd Method of Chrom Install
+## 2nd Method: Install Windows on VPS
 **** حتما اوبونتو 22 نیازه **** بعد نصب اوبونتو
 
-روی سرور linux مجازی نصب کردم با کامند طبق ویدیو
+روی سرور linux مجازی نصب کردم با کامند طبق ویدیو:
+
+https://drive.google.com/file/d/1NFk-Rxj8GlP2Cp6c7JT90uPO8_EiyVWd/view?usp=sharing
 ```
-docker stop chromium
-docker rm chromium
-docker system prune
+sudo apt update
+sudo apt install curl
+curl -O https://gist.githubusercontent.com/NodeFarmer/a533a2e5e7ae8174e06d8e8830721ab6/raw/UbuntuDesktop.sh && chmod +x UbuntuDesktop.sh && ./UbuntuDesktop.sh
+
 ```
