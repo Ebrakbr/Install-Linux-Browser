@@ -119,3 +119,12 @@ docker stop chromium
 docker rm chromium
 docker system prune
 ```
+
+## 2nd Method of Chrom Install
+**** حتما اوبونتو 22 نیازه **** بعد نصب اوبونتو
+روی سرور linux مجازی نصب کردم با کامند طبق ویدیو
+```
+docker stop chromium
+docker rm chromium
+docker system prune
+```
