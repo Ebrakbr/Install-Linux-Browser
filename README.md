@@ -113,7 +113,7 @@ nano docker-compose.yaml
 docker compose up -d
 
 ```
-## Optioon 2: Stop and Delete Chromium
+## Option 2: Stop and Delete Chromium
 ```
 docker stop chromium
 docker rm chromium
