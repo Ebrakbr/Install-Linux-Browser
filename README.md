@@ -132,3 +132,11 @@ sudo apt install curl
 curl -O https://gist.githubusercontent.com/NodeFarmer/a533a2e5e7ae8174e06d8e8830721ab6/raw/UbuntuDesktop.sh && chmod +x UbuntuDesktop.sh && ./UbuntuDesktop.sh
 
 ```
+
+## Option 3: Ubuntu-Installation in Windows (WSL)
+
+https://cryptonodehindi.medium.com/ubuntu-installation-in-windows-wsl-fce2d18fea8c
+
+```
+wsl --install
+```
