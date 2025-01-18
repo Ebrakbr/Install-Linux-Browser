@@ -141,4 +141,6 @@ To install WSL with the default settings, enter:
 ```
 wsl --install
 ```
+آموزش ویدیویی:
+https://www.youtube.com/watch?v=HrAsmXy1-78
 
