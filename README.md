@@ -137,6 +137,8 @@ curl -O https://gist.githubusercontent.com/NodeFarmer/a533a2e5e7ae8174e06d8e8830
 
 https://cryptonodehindi.medium.com/ubuntu-installation-in-windows-wsl-fce2d18fea8c
 
+To install WSL with the default settings, enter:
 ```
 wsl --install
 ```
+
