@@ -123,7 +123,9 @@ docker system prune
 ## 2nd Method: Install Ubuntu Desktop ( Similar to Windows on VPS)
 
 منبعش کراپیتون هستش و نصبش مشکل امنیتی نداره.
-**** حتما اوبونتو 22 نیازه **** بعد نصب اوبونتو
+
+**** حتما اوبونتو 22 نیازه ****
+ بعد نصب اوبونتو
 روی سرور linux مجازی نصب کردم با کامند طبق ویدیو:
 
 https://drive.google.com/file/d/1NFk-Rxj8GlP2Cp6c7JT90uPO8_EiyVWd/view?usp=sharing
@@ -137,7 +139,9 @@ curl -O https://gist.githubusercontent.com/NodeFarmer/a533a2e5e7ae8174e06d8e8830
 ## Option 3: Ubuntu-Installation in Windows (WSL)
 
 https://cryptonodehindi.medium.com/ubuntu-installation-in-windows-wsl-fce2d18fea8c
+
 منبعش هندیه و زیاد قابل اعتماد نیست :(
+
 
 To install WSL with the default settings, enter:
 ```
