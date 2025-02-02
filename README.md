@@ -13,6 +13,35 @@ sudo apt install curl
 curl -O https://gist.githubusercontent.com/NodeFarmer/a533a2e5e7ae8174e06d8e8830721ab6/raw/UbuntuDesktop.sh && chmod +x UbuntuDesktop.sh && ./UbuntuDesktop.sh
 
 ```
+بعد از نصب، از طریق ریموت دسکتاپ کامپیوتر می شه به لینوکس نصب شده وارد شد ولی گاهی کروم داخل لینوکس درست ران نمی شه، در این حالت باید مرحله پاینن یعنی نصب کروم روی لینوکس را مجدد انجام داد:
+#
+
+## 2. Install Google Chrome on the VPS
+**1. Open Terminal (if it hasn't automatically opened in the VNC session).**
+
+**2.Download Google Chrome:**
+```bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+```
+
+**3. Install Google Chrome:**
+```bash
+sudo apt install ./google-chrome-stable_current_amd64.deb
+```
+
+If you encounter dependency errors, run:
+```bash
+sudo apt --fix-broken install
+```
+
+**4. Launch Chrome in VNC (add --no-sandbox if necessary):**
+```bash
+google-chrome --no-sandbox
+```
+
+
+
+
 ------------------------------------------------------------------------------------------------------------------------
 این یکی روش مویین هستش که چند ماه خودم ران کردم ولی یه مقدار سرعت سرور پایین هستش و نه تنها منابع خیلی زیادی میخواد بازم کروم داخلش قطع و وصل میشه!!
 
