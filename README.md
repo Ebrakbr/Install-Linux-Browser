@@ -14,7 +14,7 @@ curl -O https://gist.githubusercontent.com/NodeFarmer/a533a2e5e7ae8174e06d8e8830
 
 ```
 بعد از نصب، از طریق ریموت دسکتاپ کامپیوتر می شه به لینوکس نصب شده وارد شد ولی گاهی کروم داخل لینوکس درست ران نمی شه، در این حالت باید مرحله پاینن یعنی نصب کروم روی لینوکس را مجدد انجام داد:
-#
+
 
 ## 2. Install Google Chrome on the VPS
 **1. Open Terminal (if it hasn't automatically opened in the VNC session).**
