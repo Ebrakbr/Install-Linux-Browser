@@ -1,3 +1,23 @@
+## BEST Method: Install Ubuntu Desktop ( Similar to Windows on VPS)
+
+منبعش کراپیتون هستش و نصبش مشکل امنیتی نداره. ولی بازم ولت اصلی متامسک رو داخلش اینپورت نکن!! چه ولت W00 و چه ولت های P01 تا P05 رو داخل هیچ سروری وارد نکم!!!
+
+**** حتما اوبونتو 22 نیازه ****
+ بعد نصب اوبونتو
+روی سرور linux مجازی نصب کردم با کامند طبق ویدیو:
+
+https://drive.google.com/file/d/1NFk-Rxj8GlP2Cp6c7JT90uPO8_EiyVWd/view?usp=sharing
+```
+sudo apt update
+sudo apt install curl
+curl -O https://gist.githubusercontent.com/NodeFarmer/a533a2e5e7ae8174e06d8e8830721ab6/raw/UbuntuDesktop.sh && chmod +x UbuntuDesktop.sh && ./UbuntuDesktop.sh
+
+```
+------------------------------------------------------------------------------------------------------------------------
+این یکی روش مویین هستش که چند ماه خودم ران کردم ولی یه مقدار سرعت سرور پایین هستش و نه تنها منابع خیلی زیادی میخواد بازم کروم داخلش قطع و وصل میشه!!
+
+و تنطیماتش باید دستی انجام بشه ولی بجاش بیشترین امنیت رو داره.
+
 # Install Chromium Linux Browser
 Chromium is an open-source browser project that aims to build a safer, faster, and more stable build by Google
 * You can easily access a browser in your non-gui Linux server
@@ -120,7 +140,7 @@ docker rm chromium
 docker system prune
 ```
 
-## 2nd Method: Install Ubuntu Desktop ( Similar to Windows on VPS)
+## BEST Method: Install Ubuntu Desktop ( Similar to Windows on VPS)
 
 منبعش کراپیتون هستش و نصبش مشکل امنیتی نداره. ولی بازم ولت اصلی متامسک رو داخلش اینپورت نکن!! چه ولت W00 و چه ولت های P01 تا P05 رو داخل هیچ سروری وارد نکم!!!
 
