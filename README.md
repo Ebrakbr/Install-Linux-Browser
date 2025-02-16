@@ -51,7 +51,9 @@ google-chrome --no-sandbox
 Chromium is an open-source browser project that aims to build a safer, faster, and more stable build by Google
 * You can easily access a browser in your non-gui Linux server
 * You can easily run your Node Extensions 
+این یکی روش معین(توییتر) هستش که چند ماه خودم ران کردم ولی یه مقدار سرعت سرور پایین هستش و نه تنها منابع خیلی زیادی میخواد بازم کروم داخلش قطع و وصل میشه:
 
+و تنطیماتش باید دستی انجام بشه ولی بجاش بیشترین امنیت رو داره:
 ## Install Docker
 ```console
 sudo apt update -y && sudo apt upgrade -y
