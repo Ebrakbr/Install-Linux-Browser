@@ -176,7 +176,7 @@ docker system prune
 # Install Proxy on Chromium
 ## 1) Buy Proxy
 * You can use any reliable platform to buy a **Static Residential** proxy.
-* I bought a proxy via crypto payments on [iproyal](https://iproyal.com/?r=835672) or [webshare]([https://iproyal.com/?r=835672](https://www.webshare.io/?referral_code=la7tdfj39ss5))
+* I bought a proxy via crypto payments on [iproyal](https://iproyal.com/?r=835672) or [webshare](https://www.webshare.io/?referral_code=la7tdfj39ss5)
 
 ## 2) Install Proxy in Docker
 **1- Stop currently running container**
