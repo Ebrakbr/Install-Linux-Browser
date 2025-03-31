@@ -172,9 +172,64 @@ docker rm chromium
 docker system prune
 ```
 
+
+# Install Proxy on Chromium
+## 1) Buy Proxy
+* You can use any reliable platform to buy a **Static Residential** proxy.
+* I bought a proxy via crypto payments on [iproyal](https://iproyal.com/?r=835672) or [webshare]([https://iproyal.com/?r=835672](https://www.webshare.io/?referral_code=la7tdfj39ss5))
+
+## 2) Install Proxy in Docker
+**1- Stop currently running container**
+```bash
+docker compose down -v
+```
+
+**2- Update your `docker-compose.yml`:**
+* Replace `CUSTOM_USER` & `PASSWORD` with your Chromium credentials.
+* Delete one of `CHROME_CLI` lines depending your proxy is `http` or `socks5` and replace `proxy.example.com:1080` with your proxy address and port.
+```yaml
+---
+services:
+  chromium:
+    image: lscr.io/linuxserver/chromium:latest
+    container_name: chromium
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      - CUSTOM_USER=      #Replace username
+      - PASSWORD=      #Replace username
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+      - CHROME_CLI=--proxy-server=http://proxy.example.com:1080 https://google.com
+      - CHROME_CLI=--proxy-server=socks5://proxy.example.com:1080 https://google.com
+    volumes:
+      - /root/chromium/config:/config
+    ports:
+      - 3010:3000
+      - 3011:3001
+    shm_size: "1gb"
+    restart: unless-stopped
+```
+
+**3- Start container**
+```bash
+docker compose down -v
+docker compose up -d
+```
+
+**4- Access to your Chromium using `http://Server_IP:3010/` or `https://Server_IP:3011/`**
+* First it asks you to enter your `chromium` credential, then it asks for `proxy` credential (if your proxy has credential).
+
+![image](https://github.com/user-attachments/assets/50a05730-b4c3-45cd-967a-f3a8e156e22d)
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
 ## BEST Method: Install Ubuntu Desktop ( Similar to Windows on VPS)
 
-منبعش کراپیتون هستش و نصبش مشکل امنیتی نداره. ولی بازم ولت اصلی متامسک رو داخلش اینپورت نکن!! چه ولت W00 و چه ولت های P01 تا P05 رو داخل هیچ سروری وارد نکم!!!
+منبعش کراپیتون هستش و نصبش ممکنه مشکل امنیتی نداره. ولی بازم ولت اصلی متامسک رو داخلش اینپورت نکن!! چه ولت W00 و چه ولت های P01 تا P05 رو داخل هیچ سروری وارد نکم!!!
 
 **** حتما اوبونتو 22 نیازه ****
  بعد نصب اوبونتو
