@@ -1,4 +1,4 @@
-## First Method: Chromium/Firefox Installer with Script
+## 1st Method: Chromium/Firefox Installer with Script
 آموزش تصویری کریپتون هستش و با این روش موقع نصب میشه هم پروکسی تنطیم کردن و از اون مهمتر میشه میزان رم سرور رو به کروم ست کرد!! ولی در کل چه ولت W00 و چه ولت های P01 تا P05 رو داخل هیچ سروری وارد نکن!!!
 
 آموزش تصویری:
