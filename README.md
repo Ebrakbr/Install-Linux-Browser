@@ -1,3 +1,71 @@
+## First Method: Chromium/Firefox Installer with Script
+آموزش تصویری کریپتون هستش و با این روش موقع نصب میشه هم پروکسی تنطیم کردن و از اون مهمتر میشه میزان رم سرور رو به کروم ست کرد!! ولی در کل چه ولت W00 و چه ولت های P01 تا P05 رو داخل هیچ سروری وارد نکن!!!
+
+آموزش تصویری:
+https://drive.google.com/file/d/1l3HlEdomse4uZBDsQnaVxBeO3byuXMgo/view?usp=share_link
+
+# Chromium Installer
+
+![Banner](https://img.shields.io/badge/Made%20by-Crypton-blue.svg)  
+**A simple Bash script to install Chromium and Firefox in Docker containers with customizable options.**
+
+---
+
+## 📖 About
+
+This script automates the installation of **Chromium** and **Firefox** browsers inside Docker containers. It allows you to set custom usernames, passwords, proxy settings (HTTP/SOCKS5), and RAM limits, making it perfect for lightweight, isolated browser environments.
+
+**Created by:** Crypton  
+**Follow me on Twitter:** [@0xCrypton_](https://x.com/0xCrypton_)
+
+---
+
+## ✨ Features
+
+- Installs **Chromium** and **Firefox** with a single command.
+- Optional **HTTP** and **SOCKS5** proxy configuration for Chromium.
+- Customizable **RAM limits** for each container.
+- User-friendly prompts for usernames and passwords.
+- Automatically installs Docker if it’s not present.
+- Easy uninstallation option.
+
+---
+
+## 🛠️ Prerequisites
+
+- A Linux-based system (e.g., Ubuntu, Debian).
+- `curl` installed (for Docker installation).
+- Root or sudo privileges (to run Docker commands).
+
+---
+
+## 🚀 Installation
+توضیحات مراحل نصب:
+
+با اجرا کردن اسکریپت، ۵ گزینه وجود داره که می توان کرومیوم ویا فایرفاک را نصب کرد و در حین نصب خیلی مهم هستش که انتخاب کنیم چه میزان از رم سرور رو میخوایم به مرورگر اختصاص بدیم و در مرحله انتخاب پروکسی میتونیم http ویا ساکس ویا هیچ کدوم رو انتخاب کنیم.
+
+نکته: اگه در هنگام نصب پروکسی نداشتیم، میتونیم نصب کنیم و در ماه های‌آینده اگه پروکسی پیدا کردیم با همین اسکریپت بیایم uninstall  رو بزنیم و مجددا مراحل نصب رو از اول انجام بدیم!
+
+1. **Run the Script**
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/cryptoneth/linux/main/browser.sh)
+``` 
+
+ Usage
+When you run the script, you’ll see this menu:
+
+Select an option:
+1) Install Chromium
+2) Uninstall Chromium
+3) Install Firefox
+4) Uninstall Firefox
+5) Exit
+
+=================
+
+
+## 2nd Method: 
 ## BEST Method: Install Ubuntu Desktop ( Similar to Windows on VPS)
 
 منبعش کراپیتون هستش و بنظر نصبش مشکل امنیتی نداره. ولی بازم ولت اصلی متامسک رو داخلش اینپورت نکن!! چه ولت W00 و چه ولت های P01 تا P05 رو داخل هیچ سروری وارد نکن!!!
@@ -47,6 +115,7 @@ google-chrome --no-sandbox
 
 و تنطیماتش باید دستی انجام بشه ولی بجاش بیشترین امنیت رو داره:
 
+## 3rd Method: 
 # Install Chromium Linux Browser
 Chromium is an open-source browser project that aims to build a safer, faster, and more stable build by Google
 * You can easily access a browser in your non-gui Linux server
@@ -227,6 +296,8 @@ docker compose up -d
 
 -----------------------------------------------------------------------------------------------------------------------
 
+
+## 4th Method: 
 ## BEST Method: Install Ubuntu Desktop ( Similar to Windows on VPS)
 
 منبعش کراپیتون هستش و نصبش ممکنه مشکل امنیتی نداره. ولی بازم ولت اصلی متامسک رو داخلش اینپورت نکن!! چه ولت W00 و چه ولت های P01 تا P05 رو داخل هیچ سروری وارد نکم!!!
